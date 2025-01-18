@@ -13,6 +13,7 @@
               <include name="tabTest"/>
              </methods> 
             </class>
+            <class name="com.Bai19_ICEHRM_LoginTest" />
         </classes>
     </test>
 </suite> <!-- Suite -->
