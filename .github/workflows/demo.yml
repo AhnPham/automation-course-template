@@ -37,7 +37,7 @@ jobs:
 
       - name: CI test
         run: |
-          mvn clean test -Dtest=com.Bai16_LoginTestPOM
+          mvn clean test -Dsuite=Regression
 
       # - uses: actions/upload-artifact@v3
       #   if: failure()
