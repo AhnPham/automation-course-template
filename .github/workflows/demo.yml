@@ -37,7 +37,7 @@ jobs:
 
       - name: CI test
         run: |
-          mvn clean test -Dtest=com.LoginTestPOM
+          mvn clean test -Dtest=com.Bai16_LoginTestPOM
 
       # - uses: actions/upload-artifact@v3
       #   if: failure()
