@@ -19,7 +19,7 @@ public class Bai18_TabTest extends BasicTest {
     Assert.assertEquals(driver.getCurrentUrl(), url);
 
     // Login
-    Bai16_LoginTest login = new Bai16_LoginTest();
+    Bai16_LoginTestPOM login = new Bai16_LoginTestPOM();
     login.loginTestSuccess();
 
     // Open new tab and Navigate to the new URL

@@ -5,15 +5,16 @@
         <!-- <parameter name="browser" value="chrome"/> -->
         <classes>
             <class name="com.LoginTest" />
-            <class name="com.Bai16_LoginTest" />
+            <class name="com.Bai16_LoginTestUsingPOM" />
             <class name="com.Bai16_RegisterTest" />
-            <class name="com.Bai17_ShoppingCartTest" />
+            <class name="com.Bai17_20_ShoppingCartTest" />
             <class name="com.Bai18_TabTest">
              <methods>
               <include name="tabTest"/>
              </methods> 
             </class>
             <class name="com.Bai19_ICEHRM_LoginTest" />
+            <class name="com.Bai21_BreadcrumbTest" />
         </classes>
     </test>
 </suite> <!-- Suite -->
